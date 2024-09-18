@@ -40,7 +40,9 @@ struct CategoListView: View {
                     }
                 }
             }
-        }.padding(.top, 28)
+            .background(.backround)
+        }
+        .padding(.top, 28)
     }
 }
 

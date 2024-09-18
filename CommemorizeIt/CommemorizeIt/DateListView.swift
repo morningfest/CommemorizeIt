@@ -46,8 +46,10 @@ struct DateListView: View {
                         .explainFont()
                 }
                 .listRowInsets(EdgeInsets())
+                .listRowBackground(Color.backround)
                 .padding(.vertical, 28)
             }.listStyle(.plain)
+                .background(Color.backround)
         }.ignoresSafeArea()
     }
 }
