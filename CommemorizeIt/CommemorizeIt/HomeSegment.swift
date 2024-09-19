@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct HomeSegment: View {
+    @Binding var selected: String
+    
     let segments: [String] = ["기념일별", "날짜별"]
-    @State private var selected: String = "기념일별"
     @Namespace private var animationNamespace
     
     var body: some View {
@@ -38,6 +39,7 @@ struct SegmentButton: View {
                 Text(title)
                     .font(.system(size: 16, weight: .light))
                     .foregroundColor(isSelected ? .typo70 : Color(uiColor: .typo20))
+                
                 ZStack {
                     Capsule()
                         .fill(Color.clear)
@@ -54,6 +56,6 @@ struct SegmentButton: View {
     }
 }
 
-#Preview {
-    HomeSegment()
-}
+//#Preview {
+//    HomeSegment()
+//}
