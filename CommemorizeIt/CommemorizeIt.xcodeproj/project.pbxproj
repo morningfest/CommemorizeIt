@@ -17,6 +17,8 @@
 		F0D0097B2C9AC4CC000FC47E /* DateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0097A2C9AC4CC000FC47E /* DateListView.swift */; };
 		F0D0097D2C9B321B000FC47E /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0097C2C9B321B000FC47E /* Font.swift */; };
 		F0D009802C9B38B8000FC47E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D0097F2C9B38B8000FC47E /* Home.swift */; };
+		F0D009822C9C590E000FC47E /* AnniversaryTypeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D009812C9C590E000FC47E /* AnniversaryTypeListView.swift */; };
+		F0D009842C9C6DC6000FC47E /* AnniversaryTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D009832C9C6DC6000FC47E /* AnniversaryTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		F0D0097A2C9AC4CC000FC47E /* DateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListView.swift; sourceTree = "<group>"; };
 		F0D0097C2C9B321B000FC47E /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		F0D0097F2C9B38B8000FC47E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F0D009812C9C590E000FC47E /* AnniversaryTypeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryTypeListView.swift; sourceTree = "<group>"; };
+		F0D009832C9C6DC6000FC47E /* AnniversaryTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				F0D009782C9825E6000FC47E /* CategoListView.swift */,
 				F0D0097A2C9AC4CC000FC47E /* DateListView.swift */,
 				F0D0097F2C9B38B8000FC47E /* Home.swift */,
+				F0D009812C9C590E000FC47E /* AnniversaryTypeListView.swift */,
+				F0D009832C9C6DC6000FC47E /* AnniversaryTypeView.swift */,
 			);
 			path = CommemorizeIt;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 				F0D009792C9825E6000FC47E /* CategoListView.swift in Sources */,
 				F0D009802C9B38B8000FC47E /* Home.swift in Sources */,
 				F0D009752C981C01000FC47E /* MainButton.swift in Sources */,
+				F0D009822C9C590E000FC47E /* AnniversaryTypeListView.swift in Sources */,
+				F0D009842C9C6DC6000FC47E /* AnniversaryTypeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
