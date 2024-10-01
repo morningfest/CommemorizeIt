@@ -26,6 +26,7 @@ extension View {
     
     func normalTitleFont() -> some View {
         self.modifier(Font(fontType: .semibold, size: 21, color: .typo100))
+            .lineSpacing(5)
     }
     
     func anniversaryTitleFont() -> some View {
@@ -47,6 +48,7 @@ extension View {
     
     func explainFont() -> some View {
         self.modifier(Font(fontType: .light, size: 14, color: .typo70))
+            .lineSpacing(5)
     }
 }
 
