@@ -11,7 +11,7 @@ import SwiftUI
 struct CommemorizeItApp: App {
     var body: some Scene {
         WindowGroup {
-            Home()
+            AnniversaryNameView()
         }
     }
 }

@@ -22,11 +22,11 @@ struct AnniversaryNameView: View {
                     .normalTitleFont()
                     .padding(.bottom, 12)
                 
-            Text("도움을 드리자면, ‘_____의 날, _____기념일, _____데이’ 의 형식으로 명명하시면 국민들이 이해하고 부르기 쉬울 겁니다.")
+                Text("도움을 드리자면, ‘_____의 날, _____기념일, _____데이’ 의 형식으로 명명하시면 국민들이 이해하고 부르기 쉬울 겁니다.")
                     .explainFont()
                 
                 Spacer()
-                    .frame(height: 131)
+                    .frame(height: 134)
                 
                 MainTextField()
                 
@@ -38,8 +38,9 @@ struct AnniversaryNameView: View {
             .padding(.horizontal, 26)
         }
     }
+    
+    @State private var keyboardHeight: CGFloat = 0
 }
-
 
 #Preview {
     AnniversaryNameView()

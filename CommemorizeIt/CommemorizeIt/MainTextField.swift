@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct MainTextField : View {
-    @State var name: String = ""
+    @StateObject var manager = TFManager()
     
     var body: some View {
       VStack {
-        TextField("기념일 이름을 작성하세요", text: $name)
+          TextField("기념일 이름을 작성하세요", text: $manager.text)
           .padding()
           .frame(height: 53.0)
           .background(Color.textboxIn)
@@ -21,9 +21,23 @@ struct MainTextField : View {
               RoundedRectangle(cornerRadius: 12)
               .strokeBorder(Color.boxOutside)
           }
+          Text("\(manager.text.count)/20")
+              .explainFont()
+              .opacity(0.4)
       }
     }
   }
+
+class TFManager: ObservableObject{
+    
+    @Published var text = ""{
+        didSet{
+            if text.count > 20 && oldValue.count <= 20{
+                text = oldValue
+            }
+        }
+    }
+}
 
 #Preview {
     MainTextField()

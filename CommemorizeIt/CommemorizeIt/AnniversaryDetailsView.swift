@@ -20,7 +20,6 @@ struct AnniversaryDetailsView: View {
                 
                 Text("자세한 설명이 필요할 것 같습니다.\n무슨일이 있었는 지 알 수 있을까요?")
                     .normalTitleFont()
-                    .padding(.bottom, 12)
                 
                 Spacer()
                     .frame(height: 94)

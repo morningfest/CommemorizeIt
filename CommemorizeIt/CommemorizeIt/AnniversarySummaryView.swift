@@ -20,7 +20,6 @@ struct AnniversarySummaryView: View {
                 
                 Text("아가 국민들을 위해 요약본 한번만 작성 부탁드립니다.")
                     .normalTitleFont()
-                    .padding(.bottom, 12)
                 
                 Spacer()
                     .frame(height: 94)
