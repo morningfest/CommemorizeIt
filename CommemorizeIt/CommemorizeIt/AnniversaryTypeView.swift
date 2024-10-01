@@ -9,6 +9,9 @@ import SwiftUI
 
 struct AnniversaryTypeView: View {
     var body: some View {
+        ZStack {
+            Color.backround.ignoresSafeArea()
+            
             VStack(alignment: .leading, spacing: 0) {
                 Image("prgb1")
                     .resizable()
@@ -22,14 +25,14 @@ struct AnniversaryTypeView: View {
                     .padding(.top, 32)
                 
                 Spacer()
-                    .frame(height: 70)
+                    
                 
                 MainButton(text: "다음")
+                    .padding(.bottom, 70)
                 
-                Spacer()
             }
-        .padding(.horizontal, 26)
-        .background(.backround)
+            .padding(.horizontal, 26)
+        }
     }
 }
 
